@@ -14,13 +14,15 @@
         <!-- Base styles -->
         <link rel="stylesheet" href="assets/css/baseStyle.css">
         <!-- Custom styles -->
-        <link rel="stylesheet" href="assets/css/visualId.css">
+        <link rel="stylesheet" href="assets/css/visualId.css">           
+        <!-- Custom js -->
+        <script src="assets/js/main.js"></script>
     </head>
     <body>
         <div class="section" id="menuBar">                                 
             <a href="index.html" class="brand-logo left"><img src="assets/img/logo.svg"></a> 
             <nav class="nav-wrapper">   
-                <a href="#stayput" data-target="mobile-demo" class="right sidenav-trigger menu-icon" onclick="checkModalClose('off')"><i class="material-icons">menu</i></a>
+                <a href="#stayput" data-target="mobile-demo" class="right sidenav-trigger menu-icon"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="hide-on-med-and-down">
                     <li class="active"><a href="visualIdentity.html">Visual Identity</a></li>
                     <li><a href="#stayput">Ux &amp; Ui</a></li>
@@ -56,23 +58,28 @@
                     <div class="card">
                         <div class="card-image" id="rocketiumBrochure">
                             <!-- <img src="assets/img/brochureDesignRocketium.svg"> -->
-                            <a href="#rocketiumBrochureView" class="btn modal-trigger"  onclick="checkModalClose('on')">View Project</a>
+                            <a href="#rocketiumBrochureView" class="btn modal-trigger">View Project</a>
                             <div id="rocketiumBrochureView" class="modal">
                                 <div class="modal-content">
-                                  <img loading="lazy" src="assets/img/rocketiumBrochure.jpg" alt="Brochure Design- Rocketium">
+                                  <img loading="lazy" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/39335a93954291.5e746f5a35e9a.jpg" alt="Brochure Design- Rocketium">
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="card-action centeredDiv">
                             <a href="#stayput">Brochure Design- Rocketium</a>
                         </div>
                     </div>
-                </div>
+                </div>                
                 <div class="col s12 m3 l3">
                     <div class="card">
                         <div class="card-image" id="rocketiumIllust">
                             <!-- <img src="assets/img/brandIllustrationsRocketium.svg"> -->
-                            <a href="#stayput" class="btn" >View Project</a>
+                            <a href="#rocketiumBrandView" class="btn modal-trigger">View Project</a>
+                            <div id="rocketiumBrandView" class="modal">
+                                <div class="modal-content">
+                                  <img loading="lazy" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/05e1b583964751.5d7ccadcea429.jpg" alt="Brochure Design- Rocketium">
+                                </div>
+                            </div>
                         </div>
                         <div class="card-action centeredDiv">
                             <a href="#stayput">Brand Illustrations- Rocketium</a>
@@ -83,7 +90,12 @@
                     <div class="card">
                         <div class="card-image" id="hurfBrand">
                             <!-- <img src="assets/img/brandIdentityHurf.svg"> -->
-                            <a href="#stayput" class="btn" >View Project</a>
+                            <a href="#hurfBrandView" class="btn modal-trigger">View Project</a>
+                            <div id="hurfBrandView" class="modal">
+                                <div class="modal-content">
+                                  <img loading="lazy" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7426f885466367.5d7c95736af42.jpg" alt="Brochure Design- Rocketium">
+                                </div>
+                            </div>
                         </div>
                         <div class="card-action centeredDiv">
                             <a href="#stayput">Brand Identity - Hurf</a>
@@ -93,8 +105,13 @@
                 <div class="col s12 m3 l3">
                     <div class="card">
                         <div class="card-image" id="rebookBrand">
-                            <!-- <img src="assets/img/brandIdentityRebook.svg"> -->
-                            <a href="#stayput" class="btn" >View Project</a>
+                            <!-- <img src="assets/img/brandIdentityRebook.svg"> -->                            
+                            <a href="#rebookBrandView" class="btn modal-trigger">View Project</a>
+                            <div id="rebookBrandView" class="modal">
+                                <div class="modal-content">
+                                  <img loading="lazy" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/1e310276933899.5dff97cdda2fe.jpg" alt="Brochure Design- Rocketium">
+                                </div>
+                            </div>
                         </div>
                         <div class="card-action centeredDiv">
                             <a href="#stayput">Brand Identity - Rebook</a>
@@ -145,10 +162,7 @@
                     <button type="submit" value="Send" class="btn">Send</button>
                 </form>
             </div>
-        </footer>        
-        
-        <!-- Custom js -->
-        <script src="assets/js/main.js"></script>
+        </footer>     
 
     </body>
 </html>
