@@ -17,6 +17,7 @@ body {
 .nav-wrapper {
     background-color: white !important;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.11) !important;
+    height: 79px !important;
 }
 
 nav ul a{   
@@ -53,6 +54,7 @@ nav ul a:active {
     display: flex;
     justify-content: space-around;
     margin-left: 100px !important;
+    padding-top: 9px !important;
 }
 
 #menuBar {
@@ -65,6 +67,7 @@ nav ul a:active {
 .menu-icon {
     color: #343434 !important;
     right: 15px !important;
+    margin-top: 9px !important;
 }
 
 .menu-icon > i {    
