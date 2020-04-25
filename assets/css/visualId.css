@@ -134,6 +134,7 @@
     z-index: 1003 !important;
     pointer-events: none !important;
     cursor: grab !important;
+    display: none;
 }
 
 .modal-close > i {
