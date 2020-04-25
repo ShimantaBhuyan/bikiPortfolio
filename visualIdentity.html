@@ -9,8 +9,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <!-- Materialize JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!-- Custom js for materialize-->
-        <script src="assets/js/main.js"></script>
         <!-- Base styles -->
         <link rel="stylesheet" href="assets/css/baseStyle.css">
         <!-- Custom styles -->
@@ -20,7 +18,7 @@
         <div class="section" id="menuBar">                                 
             <a href="index.html" class="brand-logo left"><img src="assets/img/logo.png"></a> 
             <nav class="nav-wrapper">   
-                <a href="#" data-target="mobile-demo" class="right sidenav-trigger menu-icon"><i class="material-icons">menu</i></a>
+                <a href="#" data-target="mobile-demo" class="right sidenav-trigger menu-icon" onclick="checkModalClose('off')"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="hide-on-med-and-down">
                     <li class="active"><a href="visualIdentity.html">Visual Identity</a></li>
                     <li><a href="#uxui">Ux &amp; Ui</a></li>
@@ -42,7 +40,7 @@
             </div>         
         </div>
         
-        <a href="#" class="modal-close btn-flat"><i class="close-icon right material-icons">close</i></a>
+        <a href="#" class="modal-close btn-flat" id="modalCloseBtn"><i class="close-icon right material-icons">close</i></a>
 
         <div class="section" id="workArea">
             <p id="headerText">
@@ -56,10 +54,10 @@
                     <div class="card">
                         <div class="card-image" id="rocketiumBrochure">
                             <!-- <img src="assets/img/brochureDesignRocketium.svg"> -->
-                            <a href="#rocketiumBrochureView" class="btn modal-trigger" >View Project</a>
+                            <a href="#rocketiumBrochureView" class="btn modal-trigger"  onclick="checkModalClose('on')">View Project</a>
                             <div id="rocketiumBrochureView" class="modal">
                                 <div class="modal-content">
-                                  <img src="assets/img/rocketiumBrochure.jpg">
+                                  <img loading="lazy" src="assets/img/rocketiumBrochure.jpg" alt="Brochure Design- Rocketium">
                                 </div>
                               </div>
                         </div>
@@ -145,7 +143,10 @@
                     <button type="submit" value="Send" class="btn">Send</button>
                 </form>
             </div>
-        </footer>
+        </footer>        
         
+        <!-- Custom js -->
+        <script src="assets/js/main.js"></script>
+
     </body>
 </html>

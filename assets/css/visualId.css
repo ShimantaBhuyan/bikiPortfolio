@@ -133,6 +133,11 @@
     color: #FFFFFF !important;
     z-index: 1003 !important;
     pointer-events: none !important;
+    cursor: grab !important;
+}
+
+.modal-close > i {
+    font-size: 2.5rem !important;
 }
 
 .modal-overlay {
