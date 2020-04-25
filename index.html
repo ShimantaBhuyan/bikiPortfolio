@@ -1,0 +1,201 @@
+<!DOCTYPE html lang="en">
+    <head>
+        <title>Bikiron Bora Portfolio</title>  
+        <!--optimize browser for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Flickity CSS (for carousel) -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
+        <!-- Flickity JS (for carousel> -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Custom js -->
+        <script src="assets/js/main.js"></script>
+    </head>
+    <body>
+        <div class="section" id="menuBar">                                 
+            <a href="#" class="brand-logo left"><img src="assets/img/logo.png"></a> 
+            <nav class="nav-wrapper">   
+                <a href="#" data-target="mobile-demo" class="right sidenav-trigger menu-icon"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="hide-on-med-and-down">
+                    <li><a href="#visualId">Visual Identity</a></li>
+                    <li><a href="#uxui">Ux &amp; Ui</a></li>
+                    <li><a href="#illustrations">Illustrations</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><button class="btn getInTouchBtn">Get In Touch</button></li>
+                </ul>
+            </nav>     
+        
+            <div class="sidenav" id="mobile-demo">
+                <ul>
+                    <li class="right"><a href="#" class="sidenav-close"><i class="close-icon right material-icons">close</i></a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Identity Design</a></li>
+                    <li><a href="#">Ux &amp; Ui</a></li>
+                    <li><a href="#">Illustrations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section hero" id="heroArea">
+            <div class="row">
+                <div class="col s9 m7 l6 hero-area1">
+                    <div class="hero-text-main">
+                        <span>Hello, I am a</span>
+                        <br/>
+                        <span>visual designer</span>
+                    </div>
+                    <div class="hero-text-sec">
+                        <span>and a product design enthusiast.</span>
+                        <br />
+                        <span>Hope you like exploring around.</span>
+                    </div>
+                    <a class="btn viewWorkBtn">VIEW MY WORK</a>
+                </div>
+                <div class="col s3 m5 l6 hero-area2 right">
+                    <img src="assets/img/HeroImg.png" />
+                </div>
+            </div>
+        </div>       
+
+        <div class="section centeredDiv" id="workedWithArea">
+            <p>People I have worked with</p>
+            <div class="valign-wrapper coImg">
+                <div id="rocketiumLogo">
+                    <img src="assets/img/rocketiumLogo.png"/>
+                </div>                
+                <div id="converzateLogo">   
+                    <img src="assets/img/converzateLogo.png" />                 
+                </div>                
+                <div id="deepsyncLogo">
+                    <img src="assets/img/deepsyncLogo.png" />                    
+                </div>
+            </div>
+        </div> 
+
+        <div class="section centeredDiv" id="testimonialsArea">
+            <img src="assets/img/testimonial_1.png" />
+            <div class="testimonialDiv centeredDiv">
+                <p id="nameOfPerson">Satej Sirur</p>
+                <p class="testimonialText" id="designationOfPerson">
+                    CEO, <strong>Rocketium</strong>
+                </p>
+                <p class="testimonialText" id="testimonial">
+                    <em>"</em> Bikiron has had a long association with Rocketium - twice as an intern and then as a full-time designer.
+                    He has a variety of interests and tremendous potential. He has contributed to Rocketium in multiple ways - branding, decks (investor, sales), printed material (brochures, T-shirts, visiting cards), UI and UX, marketing collateral (ads, blog posts, social), and so much more. 
+                    He has a keen sense of customer needs and likes to be in their shoes when designing or even conceptualising. 
+                    He is a fabulous person to work with and I highly recommend him to any design or product leader.<em>"</em>
+                </p>
+            </div>
+        </div>
+
+        <div class="section" id="aboutMyselfArea">
+            <div class="row">
+                <div class="col s7 m7 l6 about-area1">
+                    <div class="about-text-main">
+                        <span>A little bit about myself</span>
+                    </div>
+                    <div class="about-text-sec">
+                        <p>Hi, I am a visual designer, trying to pivot towards product design. I have done a few projects on the UX side of things. Hope you like exploring the work.</p>
+                        <p>Hi, I am a visual designer, trying to pivot towards product design. I have done a few projects on the UX side of things. Hope you like exploring the work.</p>
+                    </div>
+                </div>
+                <div class="col s5 m5 l6 about-area2">
+                    <img class="right" src="assets/img/aboutMe.png" />
+                </div>
+            </div>
+            <div class="row centeredDiv viewResume">                
+                <a class="btn viewResumeBtn">View Resume</a>
+            </div>
+        </div>
+
+        <div class="section centeredDiv hide-on-small-only" id="workArea">
+            <p>View my work</p>
+            <div class="valign-wrapper" id="workImg">
+                <div class="m4 l4 cards centeredDiv" id="vIdImg"> 
+                    <img src="assets/img/visualIdentityIcon.png"/>
+                    <p>Visual Identity</p>
+                    <button class="btn">View</button>
+                </div>                
+                <div class="m4 l4 cards centeredDiv" id="uxuiImg">   
+                    <img src="assets/img/ux_uiIcon.png" /> 
+                    <p>UX &amp; UI</p>   
+                    <button class="btn">View</button>             
+                </div>                
+                <div class="m4 l4 cards centeredDiv" id="illustImg">
+                    <img src="assets/img/illustrationsIcon.png" /> 
+                    <p>Illustrations</p>  
+                    <button class="btn">View</button>                 
+                </div>
+            </div>
+        </div>
+        
+        <div class="section hide-on-med-and-up js-flickity" data-flickity-options='{ "wrapAround": true, "prevNextButtons": false, "initialIndex": "1"}' id="workCarousel">
+            <div class="cards centeredDiv" id="vIdImgCar"> 
+                <img src="assets/img/visualIdentityIcon.png"/>
+                <p>Visual Identity</p>
+                <button class="btn">View</button>
+            </div>
+            <div class="cards centeredDiv" id="uxuiImgCar">   
+                <img src="assets/img/ux_uiIcon.png" /> 
+                <p>UX &amp; UI</p>   
+                <button class="btn">View</button>             
+            </div>
+            <div class="cards centeredDiv" id="illustImgCar">
+                <img src="assets/img/illustrationsIcon.png" /> 
+                <p>Illustrations</p>  
+                <button class="btn">View</button>                 
+            </div>
+        </div>
+
+        <footer class="page-footer">            
+            <div id="footerLogo">
+                <img src="assets/img/logoB&W.png" />
+            </div>
+            <div id="footerMainText">
+                <p id="aboutTextFooter">
+                    I am a visual designer based out of Bangalore. <br />
+                    I also work as a freelancer/consultant with businesses. <br />
+                    If you liked exploring around my portfolio, do get in touch.
+                </p>
+                <p id="contact">
+                    Contact Details
+                </p>
+                <span id="phone" class="left">+918473926408</span>
+                <span id="email" class="right">bikiron.bora24@gmail.com</span>
+                <div class="workLinks">
+                    <a href="#" id="behanceLogo" class="roundedLogos">
+                        <img src="assets/img/behanceLogo.png"/>
+                    </a>
+                    <a href="#" id="dribbbleLogo" class="roundedLogos">
+                        <img src="assets/img/dribbbleLogo.png" />  
+                    </a> 
+                    <a href="#" id="linkedinLogo" class="roundedLogos">
+                        <img src="assets/img/linkedinLogo.png" />
+                    </a> 
+                </div>
+            </div>
+            <div class="hide-on-small-only" id="sendMessageFormArea">
+                <form id="sendMessageForm">                    
+                    <div class="input-field inline">
+                        <input id="email_inline" type="email" class="validate">
+                        <label for="email_inline">Your email id</label>
+                    </div>
+                    <div class="input-field inline">                        
+                        <textarea id="message_inline" name="messageToTextArea"></textarea>
+                        <label for="message_inline">Your message</label> 
+                    </div>
+                    <button type="submit" value="Send" class="btn">Send</button>
+                </form>
+            </div>
+        </footer>
+        
+    </body>
+</html>
