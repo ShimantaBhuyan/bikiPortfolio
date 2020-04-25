@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+/*font-family: 'Cairo', sans-serif;*/
+
+html {
+    max-width: 100% !important;
+    line-height: 1 !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.nav-wrapper {
+    background-color: white !important;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.11) !important;
+}
+
+nav ul a{   
+    font-family: 'Cairo', sans-serif !important; 
+    font-weight: 700 !important;    
+    font-size: 20px; 
+    color: black !important;
+    opacity: 0.6;
+}
+
+nav ul a:hover {
+    text-decoration: underline !important;   
+    background-color: white !important; 
+    opacity: 1;
+}
+
+nav ul .active {
+    opacity: 1 !important;
+    background-color: white !important;
+}
+
+nav ul .active > a {
+    opacity: 1 !important;
+}
+
+nav ul a:active { 
+    opacity: 1;
+}
+
+#nav-mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px !important;
+}
+
+#menuBar {
+    padding: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.menu-icon {
+    color: #343434 !important;
+    right: 15px !important;
+}
+
+.menu-icon > i {    
+    font-size: 30px !important;
+}
+
+.btn {
+    background: #0D0D0D !important;
+    border-radius: 5px !important;   
+    font-family: 'Cairo', sans-serif !important; 
+    font-weight: 700 !important;   
+    font-size: 18px;
+}
+
+.brand-logo {    
+    position: relative;
+    left: 46px !important;
+    top: 15px !important;
+}
+
+.sidenav {
+    width: 184px !important;
+    height: 237px !important;
+    background: transparent !important;
+    padding-bottom: 0px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    overflow: hidden;
+}
+
+.sidenav ul {
+    width: 162px;
+    height: 218px;
+    margin-top: 19px;
+    margin-right: 22px;
+    background: #0D0D0D;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.sidenav li {
+    height: 40px !important;
+}
+
+.sidenav li>a {
+    font-family: Cairo !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #FFFFFF !important;
+    padding: 9px 0 0 18px !important;
+}
+
+.getInTouchBtn {    
+    font-size: 15px !important;
+}
+
+.sidenav-overlay {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.sidenav-close {
+    height: 9.93px !important;
+    width: 9.7px !important;
+}
+
+.sidenav-close > i {    
+    margin: -15px 6px 0 0 !important;
+    color: #F8F8F8 !important;
+}
+
+.centeredDiv {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+footer {
+    background: #282828 !important;
+    margin-top: 202px !important;
+    height: 411px;
+    margin-bottom: 0 !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 17px !important; 
+    color: #FFFFFF;
+}
+
+#footerLogo {
+    position: absolute;
+    left: 58px;
+    top: 75px;
+}
+
+#footerLogo > img {
+    width: 72px;
+    height: 92px;
+}
+
+#footerMainText {
+    position: absolute;
+    width: 397px;
+    height: 108px;
+    left: 171px;
+    top: 50px; 
+}
+
+#footerMainText > p, #footerMainText > span {
+    opacity: 0.2;
+}
+
+#aboutTextFooter {
+    line-height: 156.4%;
+}
+
+#footerMainText > #contact {
+    font-weight: 700 !important;
+    color: #FFFFFF;
+    opacity: 0.7 !important;
+}
+
+.roundedLogos {
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+}
+
+.roundedLogos > img {
+    margin: auto;
+}
+
+.workLinks {    
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+#sendMessageFormArea {
+    position: absolute;
+    width: 411px;
+    right: 42px;
+    top: 70px;
+}
+
+#sendMessageForm {    
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    background: #0A0A0A !important;
+    border-radius: 5px !important;
+    border-bottom: 0px !important;
+    margin-left: 0 !important;
+}
+
+.input-field > input {    
+    margin-bottom: 0 !important;
+    border-bottom: 0 !important;
+    color: #FFFFFF !important;
+    padding-left: 20px !important;
+}
+
+.input-field > label {
+    padding: 0 0 0 20px !important;
+    color: #FFFFFF !;
+    opacity: 0.2 !;
+}
+
+.input-field > textarea {
+    border: 0px !important;
+    outline: none !important;
+    resize: none;
+    width: 411px;
+    height: 121px;
+    color: #FFFFFF !important;
+    padding: 8px 20px !important;
+}
+
+/* label focus color */
+.input-field input[type=email]:focus + label {
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+.input-field textarea:focus + label {
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+/* valid color */
+.input-field input[type=email].valid {
+    border: none !important;
+    box-shadow: none !important;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#sendMessageForm > .btn {
+    width: 411px !important;
+    height: 62px !important;
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 17px !important; 
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 414px) {  
+    #menuBar {
+        position: fixed;
+    }
+    .brand-logo {    
+        left: 24px !important;
+        top: 13px !important;
+    } 
+    footer {
+        height: 272px !important;
+        margin-top: 132px !important;
+        font-size: 12px !important; 
+    }    
+    #footerLogo {
+        left: 40px;
+        top: 28px;
+    }    
+    #footerLogo > img {
+        width: 37.57px;
+        height: 48px;
+    }    
+    #footerMainText {
+        width: 281px;
+        height: 95px;
+        left: 97px;
+        top: 12px; 
+    }    
+    .roundedLogos {
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
+    }    
+    .workLinks {    
+        margin-top: 48px;
+    }
+    #behanceLogo > img{
+        width: 22.79px;
+        height: 14.55px;
+    }
+    #dribbbleLogo > img{
+        width: 19.88px;
+        height: 19.88px;
+    }
+    #linkedinLogo > img{
+        width: 16.97px;
+        height: 16px;
+    }
+}
+
+/*
+@media screen and (max-width: 414px) {  
+    #menuBar {
+        position: fixed;
+    }
+    .brand-logo {    
+        left: 24px !important;
+        top: 13px !important;
+    } 
+    .hero {
+        overflow: hidden;
+        padding-top: 50px !important;
+        margin-left: 32px !important;
+    }
+    .hero-text-main > span {
+        font-size: 38px !important;
+    } 
+    .hero-text-sec {    
+        margin: 35px 0 0 0 !important;
+    }
+    .hero-text-sec > span {
+        font-size: 14px !important;
+    } 
+    .hero-area1 {
+        top: 34px;
+    }
+    .hero-area2 {
+        top: 38px;
+    }
+    .hero-area2 img{
+        right: -141px !important;
+        height: 228px;
+    } 
+    .viewWorkBtn {    
+        width: 148px;
+        height: 38px;
+        margin-top: 31px;
+        line-height: 38px;       
+        font-size: 14px;
+        box-shadow: rgba(0, 0, 0, 0);
+    }
+    #workedWithArea {        
+        margin-top: 114px;
+    }
+    #workedWithArea > p {   
+        font-size: 18px !important; 
+    }
+    #rocketiumLogo > img{
+        width: 92px;
+        height: 22px;
+    }
+    #converzateLogo > img{
+        width: 80px;
+        height: 17px;
+    }
+    #deepsyncLogo > img{
+        width: 103px;
+        height: 33px;
+    }
+    #workedWithArea > .coImg { 
+        margin-top: 48px;
+    }
+    #testimonialsArea{
+        margin-top: 70px !important;
+    }    
+    #testimonialsArea > img {
+        width: 74px;
+        height: 74px;
+        border-radius: 37px;
+    }    
+    .testimonialDiv{
+        top: -42px;    
+        padding-top: 42px;
+        width: 85%;  
+    }    
+    .testimonialDiv > .testimonialText {
+        font-size: 10px !important;
+    }    
+    .testimonialText > p + p {
+        font-size: 13px !important;
+    }
+    .testimonialDiv > #nameOfPerson {
+        font-size: 20px !important;
+    }    
+    #testimonial {
+        padding: 7px 18px 36px 18px !important;
+    }    
+    #testimonial > em {        
+        font-size: 13px !important;
+    }
+    #aboutMyselfArea{
+        overflow: hidden;
+        margin-top: 55px !important;
+        margin-left: 30px !important;
+        margin-right: 0 !important;
+    }    
+    .about-area2 > img{
+        height: 241px !important;
+        margin-right: -71px !important;
+    }      
+    .about-text-main > span {
+        font-size: 18px !important;
+        margin: 0px 30px 0 0 !important;
+    }    
+    .about-text-sec {    
+        margin: 0px 30px 0 0 !important;
+    }    
+    .about-text-sec > p{
+        font-size: 14px !important;         
+        margin: 18px 0 0 0 !important;
+    }
+    .viewResume {
+        margin-top: 34px !important;
+    }    
+    .viewResumeBtn {
+        font-size: 16px !important;
+        height: 37px !important;
+        width: 143px !important;
+        padding: 2px 10px;
+    }
+    .cards {    
+        width: 176.49px;
+        height: 206px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+        margin-top: 4px !important;        
+        margin-right: 27.32px !important;
+        margin-bottom: 30px !important;
+    }
+    .cards > img {
+        position: relative;
+    }
+    #vIdImgCar > img{
+        margin-top: 23.41px;
+    }    
+    #uxuiImgCar > img{
+        margin-top: 39.89px;
+    }    
+    #illustImgCar > img{
+        margin-top: 38.8px;
+    }
+    .cards > p {    
+        position: relative;
+        font-family: 'Cairo', sans-serif !important;
+        font-weight: 700 !important;
+        font-size: 14px !important; 
+        margin-top: 11.24px;
+    }
+    .cards > .btn {
+        position: relative;
+        font-size: 13px !important;
+        width: 73.22px;
+        margin-top: 41px;
+        bottom: 30px;
+    }
+    footer {
+        height: 272px !important;
+        margin-top: 132px !important;
+        font-size: 12px !important; 
+    }    
+    #footerLogo {
+        left: 40px;
+        top: 28px;
+    }    
+    #footerLogo > img {
+        width: 37.57px;
+        height: 48px;
+    }    
+    #footerMainText {
+        width: 281px;
+        height: 95px;
+        left: 97px;
+        top: 12px; 
+    }    
+    .roundedLogos {
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
+    }    
+    .workLinks {    
+        margin-top: 48px;
+    }
+    #behanceLogo > img{
+        width: 22.79px;
+        height: 14.55px;
+    }
+    #dribbbleLogo > img{
+        width: 19.88px;
+        height: 19.88px;
+    }
+    #linkedinLogo > img{
+        width: 16.97px;
+        height: 16px;
+    }
+}
+*/

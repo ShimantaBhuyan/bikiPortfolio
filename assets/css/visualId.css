@@ -1,0 +1,162 @@
+#workArea {  
+    position: relative;
+    font-family: 'Cairo', sans-serif !important; 
+    font-weight: 700 !important;   
+    color: black !important;
+    top: 96px !important;
+    padding: 0 5rem !important;
+}
+
+#workArea > p {
+    margin: 0px !important;
+}
+
+.row {
+    margin-top: 57px !important;
+    padding: 0 !important;
+    width: inherit !important;
+}
+
+.col:nth-child(1) {
+    padding-left: 0 !important;
+}
+
+.col:nth-child(4) {
+    padding-right: 0 !important;
+}
+
+.card {    
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 5px !important; 
+}
+
+#headerText {
+    font-size: 33px !important;
+    line-height: 62px !important;
+}
+
+#descText {    
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 146.9% !important;
+}
+
+.card-action > a{    
+    font-size: 14px !important;
+    line-height: 26px !important;
+    color: #000000 !important;
+    text-transform: none !important;
+    margin: 0 !important;
+}
+
+.card-image {     
+    display: flex !important;  
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 198px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-image > .btn {
+    display: none !important;
+    position: absolute !important;
+    height: 43px !important;
+    background: #FFFFFF !important;
+    border-radius: 5px !important;
+    font-size: 17px !important;
+    color: #000000 !important;
+    flex: 0 0 160px !important;
+    padding: 6px 22px !important;
+}
+
+.card-image:hover > .btn { 
+    display: block !important; 
+}
+
+#rocketiumBrochure {
+    background-image: url("../img/brochureDesignRocketium.svg") !important;
+}
+
+#rocketiumIllust {
+    background-image: url("../img/brandIllustrationsRocketium.svg") !important;
+}
+
+#hurfBrand {
+    background-image: url("../img/brandIdentityHurf.svg") !important;
+}
+
+#rebookBrand {
+    background-image: url("../img/brandIdentityRebook.svg") !important;
+}
+
+#rocketiumBrochure:hover {
+    background:
+        linear-gradient(to bottom, rgba(13,13,13, 0.7) 60%, rgba(13,13,13, 0.7) 100%),        
+        url("../img/brochureDesignRocketium.svg") !important;
+    background-size: cover !important;
+}
+
+#rocketiumIllust:hover {
+    background-image: 
+        linear-gradient(to bottom, rgba(13,13,13, 0.7) 60%, rgba(13,13,13, 0.7) 100%),
+        url("../img/brandIllustrationsRocketium.svg") !important; 
+    background-size: cover !important;
+}
+
+#hurfBrand:hover {
+    background-image: 
+        linear-gradient(to bottom, rgba(13,13,13, 0.7) 60%, rgba(13,13,13, 0.7) 100%), 
+        url("../img/brandIdentityHurf.svg") !important;
+    background-size: cover !important;
+}
+
+#rebookBrand:hover {
+    background-image: 
+        linear-gradient(to bottom, rgba(13,13,13, 0.7) 60%, rgba(13,13,13, 0.7) 100%),
+        url("../img/brandIdentityRebook.svg") !important;
+    background-size: cover !important;
+}
+
+.modal {
+    background: transparent !important;
+    top: 92px !important;
+    max-height: 80% !important;
+}
+
+.modal-close {
+    position: absolute !important;    
+    top: 60px !important;
+    right: 60px !important;
+    color: #FFFFFF !important;
+    z-index: 1003 !important;
+    pointer-events: none !important;
+}
+
+.modal-overlay {
+    opacity: 0.9 !important;
+}
+
+.modal::-webkit-scrollbar {
+    background: none !important;
+}
+
+@media screen and (max-width: 414px) {
+    #workArea {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .col:nth-child(1) {
+        padding-left: 0.75rem !important;
+    }  
+    .col:nth-child(4) {
+        padding-right: 0.75rem !important;
+    } 
+    #descText {
+        font-size: 15px !important;
+    }   
+}

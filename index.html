@@ -13,18 +13,20 @@
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
         <!-- Flickity JS (for carousel> -->
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <!-- Base styles -->
+        <link rel="stylesheet" href="assets/css/baseStyle.css">
         <!-- Custom styles -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!-- Custom js -->
+        <link rel="stylesheet" href="assets/css/main.css">        
+        <!-- Custom js for materialize-->
         <script src="assets/js/main.js"></script>
     </head>
     <body>
         <div class="section" id="menuBar">                                 
-            <a href="#" class="brand-logo left"><img src="assets/img/logo.png"></a> 
+            <a href="index.html" class="brand-logo left"><img src="assets/img/logo.png"></a> 
             <nav class="nav-wrapper">   
                 <a href="#" data-target="mobile-demo" class="right sidenav-trigger menu-icon"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="hide-on-med-and-down">
-                    <li><a href="#visualId">Visual Identity</a></li>
+                    <li><a href="visualIdentity.html">Visual Identity</a></li>
                     <li><a href="#uxui">Ux &amp; Ui</a></li>
                     <li><a href="#illustrations">Illustrations</a></li>
                     <li><a href="#blog">Blog</a></li>
@@ -36,7 +38,7 @@
                 <ul>
                     <li class="right"><a href="#" class="sidenav-close"><i class="close-icon right material-icons">close</i></a></li>
                     <li><a href="#">Work</a></li>
-                    <li><a href="#">Identity Design</a></li>
+                    <li><a href="visualIdentity.html">Identity Design</a></li>
                     <li><a href="#">Ux &amp; Ui</a></li>
                     <li><a href="#">Illustrations</a></li>
                     <li><a href="#">Contact</a></li>
@@ -112,7 +114,7 @@
                 </div>
             </div>
             <div class="row centeredDiv viewResume">                
-                <a class="btn viewResumeBtn">View Resume</a>
+                <a class="btn viewResumeBtn" href="#">View Resume</a>
             </div>
         </div>
 
@@ -122,17 +124,17 @@
                 <div class="m4 l4 cards centeredDiv" id="vIdImg"> 
                     <img src="assets/img/visualIdentityIcon.png"/>
                     <p>Visual Identity</p>
-                    <button class="btn">View</button>
+                    <a class="btn" href="visualIdentity.html">View</a>
                 </div>                
                 <div class="m4 l4 cards centeredDiv" id="uxuiImg">   
                     <img src="assets/img/ux_uiIcon.png" /> 
                     <p>UX &amp; UI</p>   
-                    <button class="btn">View</button>             
+                    <a class="btn" href="#">View</a>             
                 </div>                
                 <div class="m4 l4 cards centeredDiv" id="illustImg">
                     <img src="assets/img/illustrationsIcon.png" /> 
                     <p>Illustrations</p>  
-                    <button class="btn">View</button>                 
+                    <a class="btn" href="#">View</a>                 
                 </div>
             </div>
         </div>

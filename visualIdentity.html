@@ -1,0 +1,151 @@
+<!DOCTYPE html lang="en">
+    <head>
+        <title>Bikiron Bora Portfolio</title>  
+        <!--optimize browser for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Custom js for materialize-->
+        <script src="assets/js/main.js"></script>
+        <!-- Base styles -->
+        <link rel="stylesheet" href="assets/css/baseStyle.css">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="assets/css/visualId.css">
+    </head>
+    <body>
+        <div class="section" id="menuBar">                                 
+            <a href="index.html" class="brand-logo left"><img src="assets/img/logo.png"></a> 
+            <nav class="nav-wrapper">   
+                <a href="#" data-target="mobile-demo" class="right sidenav-trigger menu-icon"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="hide-on-med-and-down">
+                    <li class="active"><a href="visualIdentity.html">Visual Identity</a></li>
+                    <li><a href="#uxui">Ux &amp; Ui</a></li>
+                    <li><a href="#illustrations">Illustrations</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><button class="btn getInTouchBtn">Get In Touch</button></li>
+                </ul>
+            </nav>     
+        
+            <div class="sidenav" id="mobile-demo">
+                <ul>
+                    <li class="right"><a href="#" class="sidenav-close"><i class="close-icon right material-icons">close</i></a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="visualIdentity.html">Identity Design</a></li>
+                    <li><a href="#">Ux &amp; Ui</a></li>
+                    <li><a href="#">Illustrations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>         
+        </div>
+        
+        <a href="#" class="modal-close btn-flat"><i class="close-icon right material-icons">close</i></a>
+
+        <div class="section" id="workArea">
+            <p id="headerText">
+                Visual identity
+            </p>
+            <p id="descText">
+                and a product design enthusiast. Hope you like exploring around.
+            </p>
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <div class="card">
+                        <div class="card-image" id="rocketiumBrochure">
+                            <!-- <img src="assets/img/brochureDesignRocketium.svg"> -->
+                            <a href="#rocketiumBrochureView" class="btn modal-trigger" >View Project</a>
+                            <div id="rocketiumBrochureView" class="modal">
+                                <div class="modal-content">
+                                  <img src="assets/img/rocketiumBrochure.jpg">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="card-action centeredDiv">
+                            <a href="#">Brochure Design- Rocketium</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 l3">
+                    <div class="card">
+                        <div class="card-image" id="rocketiumIllust">
+                            <!-- <img src="assets/img/brandIllustrationsRocketium.svg"> -->
+                            <a href="#" class="btn" >View Project</a>
+                        </div>
+                        <div class="card-action centeredDiv">
+                            <a href="#">Brand Illustrations- Rocketium</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 l3">
+                    <div class="card">
+                        <div class="card-image" id="hurfBrand">
+                            <!-- <img src="assets/img/brandIdentityHurf.svg"> -->
+                            <a href="#" class="btn" >View Project</a>
+                        </div>
+                        <div class="card-action centeredDiv">
+                            <a href="#">Brand Identity - Hurf</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 l3">
+                    <div class="card">
+                        <div class="card-image" id="rebookBrand">
+                            <!-- <img src="assets/img/brandIdentityRebook.svg"> -->
+                            <a href="#" class="btn" >View Project</a>
+                        </div>
+                        <div class="card-action centeredDiv">
+                            <a href="#">Brand Identity - Rebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="page-footer">            
+            <div id="footerLogo">
+                <img src="assets/img/logoB&W.png" />
+            </div>
+            <div id="footerMainText">
+                <p id="aboutTextFooter">
+                    I am a visual designer based out of Bangalore. <br />
+                    I also work as a freelancer/consultant with businesses. <br />
+                    If you liked exploring around my portfolio, do get in touch.
+                </p>
+                <p id="contact">
+                    Contact Details
+                </p>
+                <span id="phone" class="left">+918473926408</span>
+                <span id="email" class="right">bikiron.bora24@gmail.com</span>
+                <div class="workLinks">
+                    <a href="#" id="behanceLogo" class="roundedLogos">
+                        <img src="assets/img/behanceLogo.png"/>
+                    </a>
+                    <a href="#" id="dribbbleLogo" class="roundedLogos">
+                        <img src="assets/img/dribbbleLogo.png" />  
+                    </a> 
+                    <a href="#" id="linkedinLogo" class="roundedLogos">
+                        <img src="assets/img/linkedinLogo.png" />
+                    </a> 
+                </div>
+            </div>
+
+            <div class="hide-on-small-only" id="sendMessageFormArea">
+                <form id="sendMessageForm">                    
+                    <div class="input-field inline">
+                        <input id="email_inline" type="email" class="validate">
+                        <label for="email_inline">Your email id</label>
+                    </div>
+                    <div class="input-field inline">                        
+                        <textarea id="message_inline" name="messageToTextArea"></textarea>
+                        <label for="message_inline">Your message</label> 
+                    </div>
+                    <button type="submit" value="Send" class="btn">Send</button>
+                </form>
+            </div>
+        </footer>
+        
+    </body>
+</html>
