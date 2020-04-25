@@ -135,7 +135,7 @@
 }
 
 .modal-close {
-    position: absolute !important;    
+    position: fixed !important;    
     top: 60px !important;
     right: 60px !important;
     color: #FFFFFF !important;
