@@ -242,6 +242,10 @@ footer {
     flex-direction: column;
 }
 
+.input-field:nth-child(1) {
+    margin-top: 0 !important;
+}
+
 .input-field{
     background: #0A0A0A !important;
     border-radius: 5px !important;
@@ -314,6 +318,15 @@ footer {
         left: 24px !important;
         top: 13px !important;
     } 
+    .brand-logo > img {
+        height: 32px !important;
+    }
+    .nav-wrapper {
+        height: 59px !important;
+    }
+    .menu-icon {
+        margin-top: 0 !important;
+    }
     footer {
         height: 272px !important;
         margin-top: 132px !important;
@@ -328,7 +341,7 @@ footer {
         height: 48px;
     }    
     #footerMainText {
-        width: 281px;
+        width: 251px;
         height: 95px;
         left: 97px;
         top: 12px; 

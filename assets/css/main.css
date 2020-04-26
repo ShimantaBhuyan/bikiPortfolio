@@ -8,6 +8,11 @@
     font-size: 23px;
 }
 
+.viewWorkBtn:hover {
+    background: #0D0D0D !important;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.35) !important;
+}
+
 .hero {
     margin-left: 83px !important;
 }
@@ -46,6 +51,7 @@
     font-family: 'Cairo', sans-serif !important;
     font-weight: 400 !important;
     font-size: 25px !important; 
+    line-height: 150% !important;
 }
 
 #workedWithArea {    
@@ -124,6 +130,8 @@
 
 #testimonial {
     padding: 18px 31px 35px 31px !important;
+    line-height: 150% !important;
+    font-weight: 400 !important;
 }
 
 #testimonial > em {
@@ -175,7 +183,12 @@
     font-size: 24px !important;
     height: 58px !important;
     width: 219px !important;
-    padding: 8px 16px;
+    padding: 10px 16px;
+}
+
+.viewResumeBtn:hover {
+    background: #0D0D0D !important;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.35) !important;
 }
 
 #workArea {
@@ -213,6 +226,10 @@
     margin-top: 0 !important;
 }
 
+.cards:hover {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4) !important;
+}
+
 #workArea > #workImg > #vIdImg > img{
     margin-top: 52px;
 }
@@ -236,6 +253,9 @@
     width: 134px;
     height: 43px;
     margin-top: 75px;
+    font-size: 17px !important;
+    line-height: 32px !important;
+    padding-top: 6px !important;
 }
 
 #workCarousel {
@@ -372,7 +392,7 @@
         font-size: 16px !important;
         height: 37px !important;
         width: 143px !important;
-        padding: 2px 10px;
+        padding: 0 10px;
     }
     .cards {    
         width: 176.49px;
@@ -405,10 +425,84 @@
     }
     .cards > .btn {
         position: relative;
-        font-size: 13px !important;
         width: 73.22px;
-        /*height: 23.5px;*/
+        height: 23.5px;
         margin-top: 41px;
         bottom: 30px;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        padding-top: 1px !important;
+    }
+}
+
+@media screen and (max-width: 380px) {  
+    .hero-text-main > span {
+        font-size: 33px !important;
+    } 
+    .hero-text-sec {    
+        margin: 25px 0 0 0 !important;
+    }
+    .hero-area2 img{
+        right: -151px !important;
+        height: 228px;
+    } 
+    #workedWithArea {        
+        margin-top: 94px;
+    }
+    .about-area2 > img{
+        height: 241px !important;
+        margin-right: -81px !important;
+    }      
+    .about-text-sec > p{
+        font-size: 14px !important;         
+        margin: 2px 0 0 0 !important;
+    }
+    .viewResume {
+        margin-top: 34px !important;
+    }    
+    .viewResumeBtn {
+        font-size: 16px !important;
+        height: 37px !important;
+        width: 143px !important;
+        padding: 0 10px;
+    }
+    .cards {    
+        width: 176.49px;
+        height: 206px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+        margin-top: 4px !important;        
+        margin-right: 27.32px !important;
+        margin-bottom: 30px !important;
+    }
+    .cards > img {
+        position: relative;
+    }
+    #vIdImgCar > img{
+        margin-top: 23.41px;
+    }    
+    #uxuiImgCar > img{
+        margin-top: 39.89px;
+    }    
+    #illustImgCar > img{
+        margin-top: 38.8px;
+    }
+    .cards > p {    
+        position: relative;
+        font-family: 'Cairo', sans-serif !important;
+        font-weight: 700 !important;
+        font-size: 14px !important; 
+        margin-top: 11.24px;
+    }
+    .cards > .btn {
+        position: relative;
+        width: 73.22px;
+        height: 23.5px;
+        margin-top: 41px;
+        bottom: 30px;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        padding-top: 1px !important;
     }
 }
