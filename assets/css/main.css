@@ -1,30 +1,22 @@
-.viewWorkBtn {    
-    width: 268px;
-    height: 73px;
+.hero-area1 > .viewBtn {    
     margin-top: 51px;
-    line-height: 73px; 
-    font-family: 'Cairo', sans-serif !important; 
-    font-weight: 700 !important;       
-    font-size: 23px;
-}
-
-.viewWorkBtn:hover {
-    background: #0D0D0D !important;
-    box-shadow: 0px 10px 15px rgba(0,0,0,0.35) !important;
+    font-weight: 700 !important;
 }
 
 .hero {
     margin-left: 83px !important;
+    top: 180px;
+    position: relative;
 }
 
 .hero-area2 {
-    position: relative;
-    top: 103px;
+    /* position: relative;
+    top: 182px; */
 }
 
 .hero-area1 {
-    position: relative;
-    top: 101px;
+    /* position: relative;
+    top: 180px; */
 }
 
 .hero-area2 img{
@@ -55,7 +47,7 @@
 }
 
 #workedWithArea {    
-    margin-top: 150px;
+    margin-top: 320px;
 }
 
 #workedWithArea > p {    
@@ -126,16 +118,18 @@
 
 .testimonialDiv > #nameOfPerson {
     font-size: 23px !important;
+    margin-top: 10px !important;
 }
 
 #testimonial {
     padding: 18px 31px 35px 31px !important;
     line-height: 150% !important;
     font-weight: 400 !important;
+    text-align: center !important;
 }
 
 #testimonial > em {
-    font-size: 29px !important;
+    font-size: 20px !important;
 }
 
 #aboutMyselfArea{
@@ -144,6 +138,15 @@
     margin-left: 186px !important;
     margin-right: 150px !important;
     padding: 0 !important;    
+}
+
+#aboutMyselfArea > .row {
+    display: flex !important;
+    align-items: flex-end !important;
+}
+
+#aboutMyselfArea > .row + .row {
+    align-items: center !important;
 }
 
 .about-area2 {
@@ -170,6 +173,11 @@
     font-weight: 400 !important;
     font-size: 25px !important; 
     margin: 38px 0 0 0 !important;
+    line-height: 146.9% !important;
+}
+
+.about-text-sec > p + p{
+    margin: 28px 0 0 0 !important;
 }
 
 .viewResume {
@@ -177,7 +185,7 @@
     margin-left: -20px !important;
 }
 
-.viewResumeBtn {
+.viewBtn {
     text-transform: none !important;
     font-weight: 600 !important;
     font-size: 24px !important;
@@ -186,9 +194,13 @@
     padding: 10px 16px;
 }
 
-.viewResumeBtn:hover {
+.viewBtn:hover {
     background: #0D0D0D !important;
     box-shadow: 0px 10px 15px rgba(0,0,0,0.35) !important;
+}
+
+#dummyWorkArea {
+    height: 1px !important;
 }
 
 #workArea {
@@ -282,11 +294,11 @@
     background: #B1B1B1;
 }
 
-@media screen and (max-width: 414px) {    
+@media screen and (max-width: 434px) {    
     .hero {
         overflow: hidden;
-        padding-top: 50px !important;
         margin-left: 32px !important;
+        top: 101px !important;
     }
     .hero-text-main > span {
         font-size: 38px !important;
@@ -298,23 +310,19 @@
         font-size: 14px !important;
     } 
     .hero-area1 {
-        top: 34px;
+        /* top: 34px; */
+    }
+    .hero-area1 > .viewBtn {
+        margin-top: 22px !important;
+        font-size: 14px !important;
     }
     .hero-area2 {
-        top: 38px;
+        /* top: 38px; */
     }
     .hero-area2 img{
         right: -141px !important;
         height: 228px;
     } 
-    .viewWorkBtn {    
-        width: 148px;
-        height: 38px;
-        margin-top: 31px;
-        line-height: 38px;       
-        font-size: 14px;
-        box-shadow: rgba(0, 0, 0, 0);
-    }
     #workedWithArea {        
         margin-top: 114px;
     }
@@ -385,10 +393,13 @@
         font-size: 14px !important;         
         margin: 18px 0 0 0 !important;
     }
+    .about-text-sec > p + p{
+        margin: 18px 0 0 0 !important;
+    }
     .viewResume {
         margin-top: 34px !important;
     }    
-    .viewResumeBtn {
+    .viewBtn {
         font-size: 16px !important;
         height: 37px !important;
         width: 143px !important;
@@ -439,6 +450,10 @@
     .hero-text-main > span {
         font-size: 33px !important;
     } 
+    .hero-area1 > .viewBtn {
+        margin-top: 39px !important;
+        font-size: 14px !important;
+    }
     .hero-text-sec {    
         margin: 25px 0 0 0 !important;
     }
@@ -460,7 +475,7 @@
     .viewResume {
         margin-top: 34px !important;
     }    
-    .viewResumeBtn {
+    .viewBtn {
         font-size: 16px !important;
         height: 37px !important;
         width: 143px !important;

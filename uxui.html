@@ -1,0 +1,161 @@
+<!DOCTYPE html lang="en">
+    <head>
+        <title>Bikiron Bora - UX and UI</title>  
+        <!--optimize browser for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Base styles -->
+        <link rel="stylesheet" href="assets/css/baseStyle.css">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="assets/css/workFiles.css">           
+        <!-- Custom js -->
+        <script src="assets/js/main.js"></script>
+    </head>
+    <body>
+        <div class="section" id="menuBar">                                 
+            <a href="index.html" class="brand-logo left"><img src="assets/img/logo.svg"></a> 
+            <nav class="nav-wrapper">   
+                <a href="#stayput" data-target="mobile-demo" class="right sidenav-trigger menu-icon"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="hide-on-med-and-down">
+                    <li><a href="visualIdentity.html">Visual Identity</a></li>
+                    <li class="active"><a href="uxui.html">Ux &amp; Ui</a></li>
+                    <li><a href="illustrations.html">Illustrations</a></li>
+                    <li><a href="#stayput">Blog</a></li>
+                    <li><a class="btn getInTouchBtn" href="#contact">Get In Touch</a></li>
+                </ul>
+            </nav>     
+        
+            <div class="sidenav" id="mobile-demo">
+                <ul>
+                    <li class="right"><a href="#stayput" class="sidenav-close"><i class="close-icon right material-icons">close</i></a></li>
+                    <li><a href="#stayput">Work</a></li>
+                    <li><a href="visualIdentity.html">Visual Identity</a></li>
+                    <li><a href="uxui.html">Ux &amp; Ui</a></li>
+                    <li><a href="illustrations.html">Illustrations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>         
+        </div>
+        
+        <a href="#stayput" class="modal-close btn-flat" id="modalCloseBtn" onclick="closeModal()"><i class="close-icon right material-icons">close</i></a>
+
+        <div class="section" id="workArea">
+            <p id="headerText">
+                UX &amp; UI
+            </p>
+            <p id="descText">
+                and a product design enthusiast. Hope you like exploring around.
+            </p>
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <div class="card">
+                        <div class="card-image" id="quikpik">
+                            <!-- <img src="assets/img/brochureDesignRocketium.svg"> -->
+                            <a href="#quikpikView" class="btn modal-trigger">View Project</a>
+                            <div id="quikpikView" class="modal">
+                                <div class="modal-header">
+                                    <p>Quikpik - UX &amp; Product Case Study</p>
+                                </div>
+                                <div class="modal-content">
+                                  <img loading="lazy" src="assets/img/workImg/uxui/QuikpikMain.png" alt="Quikpik - UX &amp; Product Case Study">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action centeredDiv">
+                            <a href="#stayput">Quikpik - UX &amp; Product Case Study</a>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col s12 m3 l3">
+                    <div class="card">
+                        <div class="card-image" id="tatdUX">
+                            <!-- <img src="assets/img/brandIllustrationsRocketium.svg"> -->
+                            <a href="#tatdUXView" class="btn modal-trigger">View Project</a>
+                            <div id="tatdUXView" class="modal">
+                                <div class="modal-header">
+                                    <p>TATD - UX Case Study</p>
+                                </div>
+                                <div class="modal-content">
+                                  <img loading="lazy" src="assets/img/workImg/uxui/TATD_UXMain.png" alt="TATD - UX Case Study">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action centeredDiv">
+                            <a href="#stayput">TATD - UX Case Study</a>
+                        </div>
+                    </div>
+                </div>              
+                <div class="col s12 m3 l3">
+                    <div class="card">
+                        <div class="card-image" id="tatdUI">
+                            <!-- <img src="assets/img/brandIllustrationsRocketium.svg"> -->
+                            <a href="#tatdUIView" class="btn modal-trigger">View Project</a>
+                            <div id="tatdUIView" class="modal">
+                                <div class="modal-header">
+                                    <p>TATD - UI Design</p>
+                                </div>
+                                <div class="modal-content">
+                                  <img loading="lazy" src="assets/img/workImg/uxui/TATD_UIMain.png" alt="TATD - UI Design">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action centeredDiv">
+                            <a href="#stayput">TATD - UI Design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="page-footer">            
+            <div id="footerLogo">
+                <img src="assets/img/logoB&W.svg" />
+            </div>
+            <div id="footerMainText">
+                <p id="aboutTextFooter">
+                    I am a visual designer based out of Bangalore. <br />
+                    I also work as a freelancer/consultant with businesses. <br />
+                    If you liked exploring around my portfolio, do get in touch.
+                </p>
+                <p id="contact">
+                    Contact Details
+                </p>
+                <span id="phone" class="left">+918473926408</span>
+                <span id="email" class="right">bikiron.bora24@gmail.com</span>
+                <div class="workLinks">                    
+                    <a href="https://www.behance.net/bikironbora" id="behanceLogo" class="roundedLogos">
+                        <img src="assets/img/behanceLogo.svg"/>
+                    </a>
+                    <a href="https://dribbble.com/Bikiron" id="dribbbleLogo" class="roundedLogos">
+                        <img src="assets/img/dribbbleLogo.svg" />  
+                    </a> 
+                    <a href="https://www.linkedin.com/in/bikiron-bora-b03995126/" id="linkedinLogo" class="roundedLogos">
+                        <img src="assets/img/linkedinLogo.svg" />
+                    </a> 
+                </div>
+            </div>
+
+            <div class="hide-on-small-only" id="sendMessageFormArea">
+                <form id="sendMessageForm">                    
+                    <div class="input-field inline">
+                        <input id="email_inline" type="email" class="validate">
+                        <label for="email_inline">Your email id</label>
+                    </div>
+                    <div class="input-field inline">                        
+                        <textarea id="message_inline" name="messageToTextArea"></textarea>
+                        <label for="message_inline">Your message</label> 
+                    </div>
+                    <button type="submit" value="Send" class="btn">Send</button>
+                </form>
+            </div>
+        </footer> 
+        
+    </body>
+</html>
