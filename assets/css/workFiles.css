@@ -144,7 +144,7 @@
 }
 
 #rocketiumBrochure:hover {
-    background:
+    background-image:
         linear-gradient(to bottom, rgba(13,13,13, 0.7) 60%, rgba(13,13,13, 0.7) 100%),        
         url("../img/workImg/illust/2_RocketiumBrochure.jpg") !important;
 }
