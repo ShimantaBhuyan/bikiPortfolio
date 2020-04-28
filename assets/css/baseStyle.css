@@ -38,14 +38,11 @@ nav ul a:hover {
 nav ul .active {
     opacity: 1 !important;
     background-color: white !important;
+    max-height: 60px !important;
 }
 
 nav ul .active > a {
     opacity: 1 !important;
-}
-
-nav ul a:active { 
-    opacity: 1;
 }
 
 #nav-mobile {

@@ -1,6 +1,9 @@
 .hero-area1 > .viewBtn {    
-    margin-top: 51px;
+    margin-top: 46px;
     font-weight: 700 !important;
+    font-size: 20px !important;
+    height: 56px !important;
+    width: 200px !important;
 }
 
 .hero {
@@ -9,15 +12,15 @@
     position: relative;
 }
 
-.hero-area2 {
-    /* position: relative;
-    top: 182px; */
+/* .hero-area2 {
+    position: relative;
+    top: 182px; 
 }
 
 .hero-area1 {
-    /* position: relative;
-    top: 180px; */
-}
+    position: relative;
+    top: 180px; 
+} */
 
 .hero-area2 img{
     position: absolute;
@@ -172,12 +175,8 @@
     font-family: 'Cairo', sans-serif !important;
     font-weight: 400 !important;
     font-size: 25px !important; 
-    margin: 38px 0 0 0 !important;
+    margin: 38px 0 25px 0 !important;
     line-height: 146.9% !important;
-}
-
-.about-text-sec > p + p{
-    margin: 28px 0 0 0 !important;
 }
 
 .viewResume {
@@ -188,7 +187,7 @@
 .viewBtn {
     text-transform: none !important;
     font-weight: 600 !important;
-    font-size: 24px !important;
+    font-size: 24px ;
     height: 58px !important;
     width: 219px !important;
     padding: 10px 16px;
@@ -240,6 +239,10 @@
 
 .cards:hover {
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4) !important;
+}
+
+.cards.is-selected {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4) !important;    
 }
 
 #workArea > #workImg > #vIdImg > img{
@@ -309,15 +312,17 @@
     .hero-text-sec > span {
         font-size: 14px !important;
     } 
-    .hero-area1 {
-        /* top: 34px; */
+    /* .hero-area1 {
+        top: 34px;
     }
+    .hero-area2 {
+        top: 38px;
+    } */
     .hero-area1 > .viewBtn {
         margin-top: 22px !important;
         font-size: 14px !important;
-    }
-    .hero-area2 {
-        /* top: 38px; */
+        height: 37px !important;
+        width: 143px !important;
     }
     .hero-area2 img{
         right: -141px !important;
@@ -391,10 +396,7 @@
     }    
     .about-text-sec > p{
         font-size: 14px !important;         
-        margin: 18px 0 0 0 !important;
-    }
-    .about-text-sec > p + p{
-        margin: 18px 0 0 0 !important;
+        margin: 18px 0 10px 0 !important;
     }
     .viewResume {
         margin-top: 34px !important;
@@ -470,7 +472,7 @@
     }      
     .about-text-sec > p{
         font-size: 14px !important;         
-        margin: 2px 0 0 0 !important;
+        margin: 2px 0 10px 0 !important;
     }
     .viewResume {
         margin-top: 34px !important;
