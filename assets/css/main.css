@@ -8,7 +8,7 @@
 
 .hero {
     margin-left: 83px !important;
-    top: 180px;
+    top: 170px;
     position: relative;
 }
 
@@ -301,7 +301,7 @@
     .hero {
         overflow: hidden;
         margin-left: 32px !important;
-        top: 101px !important;
+        top: 91px !important;
     }
     .hero-text-main > span {
         font-size: 38px !important;
