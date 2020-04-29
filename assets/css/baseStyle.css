@@ -6,6 +6,7 @@ html {
     max-width: 100% !important;
     line-height: 1 !important;
     color: rgba(0, 0, 0, 1) !important;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -126,10 +127,6 @@ nav ul .active > a {
     opacity: 1 !important;
     background-color: #0D0D0D !important;
     color: #FFFFFF !important;    
-}
-
-nav ul li .getInTouchBtn .active {
-    background-color: #0D0D0D !important;
 }
 
 .getInTouchBtn:hover {    

@@ -14,13 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var modalElem = document.querySelectorAll('.modal');
     var modalInstance = M.Modal.init(modalElem, modalOptions);
-
-    var scrollspyElem = document.querySelectorAll('.scrollspy');
-    var scrollSpyOptions = {
-        "throttle" : "1000",
-        "scrollOffset" : "0"
-    }
-    var scrollSpyInstance = M.ScrollSpy.init(scrollspyElem, scrollSpyOptions);
 });
 
 function closeModal(){
