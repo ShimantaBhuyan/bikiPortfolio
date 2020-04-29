@@ -124,8 +124,12 @@ nav ul .active > a {
 .getInTouchBtn {    
     font-size: 15px !important;
     opacity: 1 !important;
-    background: #0D0D0D !important;
+    background-color: #0D0D0D !important;
     color: #FFFFFF !important;    
+}
+
+nav ul li .getInTouchBtn .active {
+    background-color: #0D0D0D !important;
 }
 
 .getInTouchBtn:hover {    
